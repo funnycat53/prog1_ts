@@ -20,9 +20,10 @@ Izveidot programmu, kur lietotājs secīgi var pabeigt 5 teikumus
 
 # Teik1 = input("Mani sauc - ")
 # Teik2 = input("Man patīk - ")
-# Teik3 = input("Man vecums - ")
+# Teik3 = input("Mans vecums - ")
 # Teik4 = input("Es nodarbojos ar - ")
 # Teik5 = input("Mana mīļakā krāsa ir - ")
+# print("Mani sauc", Teik1, "Man patīk", Teik2, "Man ir", Teik3, "gadi", "Es nodarbojos ar", Teik4, "Mana mīļākā krāsa ir", Teik5)
 
 """
 
@@ -31,7 +32,7 @@ Izveidot programmu, kas pārbauda vai lietotājam ir vairāk kā 18 gadi (tikai 
 """
 
 # gads = 2024
-# dzGads = 2006
+# dzGads = float(input("Jūsu dzimšanas gads: "))
 
 # if gads - dzGads >= 18:
 #     print("Lietotājam ir 18 gadu")
@@ -40,7 +41,47 @@ Izveidot programmu, kas pārbauda vai lietotājam ir vairāk kā 18 gadi (tikai 
 
 """
 
+Izveidot programmu, kur 4 reizes var ievadīt kustības, tiek izvadīts virziens.
+
+"""
+
+# key = input("Ievadi w, a, s vai d: ")
+
+# if key == "w":
+#     print("Uz priekšu")
+# elif key == "a":
+#     print("Pa kreisi")
+# elif key == "d":
+#     print("Pa labi")
+# elif key == "s":
+#     print("Atpakaļ")
+# else:
+#     print("Kļūda")
+
+"""
+
 Izveidot programmu, kuru var atkārtot vairākas reizes
 
 """
 
+# while True:
+#     user_input = input("Vai vēlies atkārtot šo programmu? y/n?")
+
+#     if user_input == "n":
+#         print("Programma beidzās")
+#         break
+#     elif user_input == "y":
+#         print("Programma turpinās")
+#     else:
+#         print("Nepareiza ievade, lūdzu ierakstiet y vai n")
+
+"""
+
+Izveidot programmu, kur jāuzmin slēptais skaitlis (1-10)
+
+"""
+
+def uzminiSkaitli():
+    print("Tev jāuzmin nezināmais skaitlis no 1 - 10")
+
+Minejums = int(input("Ievadi savu minējumu: "))
