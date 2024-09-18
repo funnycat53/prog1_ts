@@ -103,14 +103,14 @@ Izveidot programmu, kur tiek izvadīti visi skaitļi, kas dalās ar ievadīto sk
 
 """
 
-skaitlis = int(input("Ievadiet savu skaitli: "))
+# skaitlis = int(input("Ievadiet savu skaitli: "))
 
-def atrast(cipars):
-    dalitaji = []
-    for i in range(1, cipars + 1):
-        if cipars % i == 0:
-            dalitaji.append(i)
-    return dalitaji
+# def atrast(cipars):
+#     dalitaji = []
+#     for i in range(1, cipars + 1):
+#         if cipars % i == 0:
+#             dalitaji.append(i)
+#     return dalitaji
 
-dalitaji = atrast(cipars=) 
-print(f"Skaitlis {skaitlis} dalās ar: {dalitaji}")
+# dalitaji = atrast(skaitlis) 
+# print(f"Skaitlis {skaitlis} dalās ar: {dalitaji}")
