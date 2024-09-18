@@ -5,6 +5,8 @@ Izveidot programmu, kas aprēķina pirkumu bez pvn un pašu pvn vērtību
 
 """
 
+import random
+
 # pvn = 0.79
 # cikIztereja = float(input("Cik jūs naudu iztērējāt?"))
 # bezPVN = cikIztereja * pvn
@@ -81,7 +83,34 @@ Izveidot programmu, kur jāuzmin slēptais skaitlis (1-10)
 
 """
 
-def uzminiSkaitli():
-    print("Tev jāuzmin nezināmais skaitlis no 1 - 10")
+# skaitlis = random.randint(1, 10)
 
-Minejums = int(input("Ievadi savu minējumu: "))
+# while True:
+#     print(skaitlis)
+
+#     i = int(input("Ievadi savu minējumu: "))
+#     if i < skaitlis:
+#         print("Lielāks")
+#     elif i > skaitlis:
+#         print("Mazāks")
+#     else:
+#         print("Jūs uzminējāt")
+#         break
+
+"""
+
+Izveidot programmu, kur tiek izvadīti visi skaitļi, kas dalās ar ievadīto skaitli
+
+"""
+
+skaitlis = int(input("Ievadiet savu skaitli: "))
+
+def atrast(cipars):
+    dalitaji = []
+    for i in range(1, cipars + 1):
+        if cipars % i == 0:
+            dalitaji.append(i)
+    return dalitaji
+
+dalitaji = atrast(cipars=) 
+print(f"Skaitlis {skaitlis} dalās ar: {dalitaji}")
