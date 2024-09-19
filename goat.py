@@ -86,7 +86,6 @@ Izveidot programmu, kur jāuzmin slēptais skaitlis (1-10)
 # skaitlis = random.randint(1, 10)
 
 # while True:
-#     print(skaitlis)
 
 #     i = int(input("Ievadi savu minējumu: "))
 #     if i < skaitlis:
