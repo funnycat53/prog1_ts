@@ -65,6 +65,5 @@ Tiek izvadīts, cik norādīto burtu ir dotajā vārdā
 
 """
 
-skaitlis = float(input("Ievadi skaitli: "))
-pakape = 2 ** skaitlis
-print(2 ** skaitlis)
+# skaitlis = int(input("Ievadi skaitli: "))
+# print("2 ^", skaitlis)
