@@ -142,33 +142,35 @@ Tiek izvadīts, cik norādīto burtu ir dotajā vārdā
 
 """
 
-def uzdevums9(summers):
+
+def uzdevums9(max):
     summa = 0
-    for x in range(1, 1000):
+    for x in range(1, max):
         if x % 3 == 0:
             summa += x
         elif x % 5 == 0:
             summa += x
+    print(summa) 
 
-            print(uzdevums9(summa))
-
+# uzdevums9(1000)
 
 """
 
 10. uzd
 
 """
+def uzdevums10(maks):
+    sk1 = 0
+    sk2 = 1
+    summa = 0
 
-# sk1 = 0
-# sk2 = 1
-# summa = 0
+    while sk2 <= maks:
+        if sk2 % 2 == 0:
+            summa += sk2
+        sk1, sk2 = sk2, sk1 + sk2
+    print(summa) 
 
-# while sk2 <= 4000000:
-#     if sk2 % 2 == 0:
-#         summa += sk2
-#     sk1, sk2 = sk2, sk1 + sk2
-
-# print(summa)
+# uzdevums10(4000000)
 
 """
 
@@ -176,11 +178,14 @@ def uzdevums9(summers):
 
 """
 
-# burti = "abcdefghijklmnopqrstuvwxyz"
+def uzdevums11():
+    burti = "abcdefghijklmnopqrstuvwxyz"
 
-# for burts1 in burti:
-#     for burts2 in burti:
-#         print(burts1 + burts2)
+    for burts1 in burti:
+        for burts2 in burti:
+            print(burts1 + burts2)
+
+# uzdevums11()
 
 """
 
@@ -188,5 +193,23 @@ def uzdevums9(summers):
 
 """
 
-# skaitlis = int(input("Ievadi skaitli: "))
-# print("2 ^", skaitlis)
+def uzdevums12():
+    skaitlis = int(input("Ievadi skaitli: "))
+    print("2 ^", skaitlis)
+
+# uzdevums12()
+
+"""
+
+14. uzd
+
+"""
+
+def uzdevums14(sk1, sk2, sk3):
+    if sk1 > sk2 and sk1 > sk3:
+        print("Pirmais ir vislielākais")
+    elif sk2 > sk1 and sk2 > sk3:
+        print("Otrais ir vislielākais")
+    elif sk3 > sk1 and sk3 > sk2:
+        print("Trešais ir vislielākais")
+# uzdevums14(1, 2, 3)
